@@ -6,7 +6,7 @@ echo "编译固件大小为: $PROFILE MB"
 echo "$(date '+%Y-%m-%d %H:%M:%S') - 开始编译..."
 
 # 克隆SSR-PLUS+源码
-git clone --depth=1 https://github.com/fw876/helloworld
+clone_all https://github.com/fw876/helloworld
 # git clone --depth=1 https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
 
 # 定义所需安装的包列表
